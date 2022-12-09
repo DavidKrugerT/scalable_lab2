@@ -8,7 +8,7 @@ For the training pipeline, we used the GPU on colab and we saved the checkpoints
 ## Huggingface UI 
 On huggingface, we fixed the UI interface having two options; Voice to text and video to the text where you can submit any youtube video. 
 
-![Huggingface interface]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/DavidKrugerT/scalable_lab2/blob/main/Huggingface_UI.png))
+![Huggingface interface]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/DavidKrugerT/scalable_lab2/blob/main/Huggingface_UI.png)
 
 ## Hyperparameter tuning
 For the last task we tried hyperparameter tuning with ray[tune] but colab wouldn't give us memory nor GPU power with the free version. We tried doing it in modal but we ran out of credits. Even if we would att credits it would be around 25 hours och run-time to get the parameters.
