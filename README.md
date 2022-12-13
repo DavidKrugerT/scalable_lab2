@@ -1,6 +1,6 @@
 # Tuning whisper model on swedish speach 
 ## Feature Pipeline:
-We started with refactoring the code into two separate files: Feature_pipline and Training_pipeline. In the feature pipeline, we created the features and labels which eas stored on gdrive. 
+We started with refactoring the code into two separate files: Feature_pipline and Training_pipeline. In the feature pipeline, we created the features and labels which was stored on gdrive. 
 
 ## Training Pipeline
 For the training pipeline, we used the GPU on colab and we saved the checkpoints to a drive folder. We then pushed the final model to huggingface so it could be accessible. 
